@@ -11,7 +11,7 @@ echo "Executing the ${TITLE} script"
  for FILE in ${FILES}
  do
   echo "checking the path /etc/${FILE} "
-# if statement
+# if statement to check if the input is actually a file or not
 if [ -f /etc/${FILE} ]  # if statement
 then
     echo "The file ${FILE} exists"

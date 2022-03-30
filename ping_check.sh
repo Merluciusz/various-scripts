@@ -13,8 +13,8 @@ function show-title() {
 }
 
 function execute-ping() {
-    show-title
-    ping ${HOST} -c 4
+    # show-title
+    ping -c 4 ${HOST} >/dev/null
     RETURN_CODE=$?
 
     if [ "$RETURN_CODE" -ne "0" ]; then
@@ -26,5 +26,5 @@ function execute-ping() {
     fi
 }
 
-#show-title
+show-title
 execute-ping
