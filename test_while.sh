@@ -11,7 +11,7 @@ do_the_work() {
     while [ $index -ge 0 ]; do
         echo "Sleeping for $index times"
         # index=$(($index - 1))
-        ((index--))
+        ((index--)) # The shorthand version
         sleep 2
     done
     return 5
