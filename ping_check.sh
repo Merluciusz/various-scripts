@@ -1,5 +1,6 @@
 #!/bin/bash
 # A simple script to check the ping
+# the script accepts a host as an argument ex: ./ping_check google.com
 
 # Variables
 TITLE=$0

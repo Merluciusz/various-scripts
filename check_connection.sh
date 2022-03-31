@@ -1,5 +1,6 @@
 #!/bin/bash
 # A simple script to check if a connection is valid
+# to be used with the ./ping_check script located in the same folder
 
 # Variables
 HOST=$1
