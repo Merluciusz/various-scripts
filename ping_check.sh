@@ -23,7 +23,7 @@ function execute-ping() {
         exit 1
     else
         #echo "the ping was successful"
-        exit 0
+         exit 0
     fi
 }
 
