@@ -34,7 +34,7 @@ Continent :\t $continent\n\
 Neigbours :\t $neighbours\n"
 
     ((count++))
-done <$1
+done <$FILE
 
 IFS=$OLDIFS
 
