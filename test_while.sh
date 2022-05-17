@@ -1,5 +1,6 @@
 #!/bin/bash
 # A simple script used for testing while loops
+# Debian based
 
 AMOUNT=$1
 
