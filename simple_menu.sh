@@ -19,7 +19,14 @@ function init_menu() {
             printf "The uptime of your pc is: \n $(uptime)"
             ;;
         "3")
+            echo " Starting neofetch.."
             neofetch
+            return_code=$?
+
+            if [ "$return_code" -ne "0" ]; then
+                 echo " Neofetch not found, starting htop instead .. \n"
+                 htop
+            fi
             ;;
         "0")
             printf " Exiting the program.. \n"
