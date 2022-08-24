@@ -1,0 +1,100 @@
+Fri 19 Aug 2022 02:15:01 PM EEST Executing /home/emil/Cleanup/check-diskfile.sh script
+--------------------------------------------------------------------------------------
+Searching for large files over the specified size of 50MB
+-r-------- 1 root root 128T Aug 18 08:54 /proc/kcore
+find: ‘/proc/30739/task/30739/fdinfo/6’: No such file or directory
+find: ‘/proc/30739/fdinfo/5’: No such file or directory
+find: ‘/run/user/1000/doc’: Permission denied
+find: ‘/run/user/1000/gvfs’: Permission denied
+-rw-r--r-- 1 root root 534M May 24 17:04 /var/lib/flatpak/repo/objects/42/3546396d99b8de0395c395db10f8a5e118c1746520120c1c4b58280cc21824.commitmeta
+-rw-rw-r-- 1 emil emil 540M Aug  3 10:31 /home/emil/.cache/JetBrains/IdeaIC2021.3/index/shared_indexes/shared-index.chunks
+-rw------- 1 root root 2,0G Jan 27  2022 /swapfile
+Done checking! -----------------------------------------------------------------------
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Executing /home/emil/Cleanup/clean-snaps.sh script
+Chaining scripts----------------------------------------------------------------------
+Some required scripts are missing.Check the file and run again!
+Aborting...
+Done
+Fri 19 Aug 2022 04:35:01 PM EEST Executing /home/emil/Cleanup/check-diskfile.sh script
+--------------------------------------------------------------------------------------
+Searching for large files over the specified size of 50MB
+-r-------- 1 root root 128T Aug 18 08:54 /proc/kcore
+find: ‘/proc/34852/task/34852/fdinfo/6’: No such file or directory
+find: ‘/proc/34852/fdinfo/5’: No such file or directory
+find: ‘/run/user/1000/doc’: Permission denied
+find: ‘/run/user/1000/gvfs’: Permission denied
+-rw-r--r-- 1 root root 534M May 24 17:04 /var/lib/flatpak/repo/objects/42/3546396d99b8de0395c395db10f8a5e118c1746520120c1c4b58280cc21824.commitmeta
+-rw-rw-r-- 1 emil emil 540M Aug  3 10:31 /home/emil/.cache/JetBrains/IdeaIC2021.3/index/shared_indexes/shared-index.chunks
+-rw------- 1 root root 2,0G Jan 27  2022 /swapfile
+Done checking! -----------------------------------------------------------------------
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Chaining scripts----------------------------------------------------------------------
+Executing /home/emil/Cleanup/clean-snaps.sh script
+Cleaning old revisions of snaps.....
+All done, good to go!
+--------------------------------------------------------------------------------------
+18
+Mon 22 Aug 2022 04:35:01 PM EEST Executing /home/emil/Cleanup/check-diskfile.sh script
+--------------------------------------------------------------------------------------
+Searching for large files over the specified size of 50MB
+-r-------- 1 root root 128T Aug 22 09:03 /proc/kcore
+find: ‘/proc/14975/task/14975/fdinfo/6’: No such file or directory
+find: ‘/proc/14975/fdinfo/5’: No such file or directory
+find: ‘/run/user/1000/doc’: Permission denied
+find: ‘/run/user/1000/gvfs’: Permission denied
+-rw-r--r-- 1 root root 534M May 24 17:04 /var/lib/flatpak/repo/objects/42/3546396d99b8de0395c395db10f8a5e118c1746520120c1c4b58280cc21824.commitmeta
+-rw-rw-r-- 1 emil emil 540M Aug  3 10:31 /home/emil/.cache/JetBrains/IdeaIC2021.3/index/shared_indexes/shared-index.chunks
+-rw------- 1 root root 2,0G Jan 27  2022 /swapfile
+Done checking! -----------------------------------------------------------------------
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Chaining scripts----------------------------------------------------------------------
+Executing /home/emil/Cleanup/clean-snaps.sh script
+Cleaning old revisions of snaps.....
+All done, good to go!
+--------------------------------------------------------------------------------------
+18
+Tue 23 Aug 2022 04:35:01 PM EEST Executing /home/emil/Cleanup/check-diskfile.sh script
+--------------------------------------------------------------------------------------
+Searching for large files over the specified size of 50MB
+find: ‘/sys/kernel/slab/:A-0000064/cgroup/anon_vma_chain(1896:anacron.service)’: No such file or directory
+-r-------- 1 root root 128T Aug 23 09:14 /proc/kcore
+find: ‘/proc/14018/task/14018/fdinfo/6’: No such file or directory
+find: ‘/proc/14018/fdinfo/5’: No such file or directory
+find: ‘/run/user/1000/doc’: Permission denied
+find: ‘/run/user/1000/gvfs’: Permission denied
+-rw-r--r-- 1 root root 534M May 24 17:04 /var/lib/flatpak/repo/objects/42/3546396d99b8de0395c395db10f8a5e118c1746520120c1c4b58280cc21824.commitmeta
+-rw-rw-r-- 1 emil emil 540M Aug  3 10:31 /home/emil/.cache/JetBrains/IdeaIC2021.3/index/shared_indexes/shared-index.chunks
+-rw------- 1 root root 2,0G Jan 27  2022 /swapfile
+Done checking! -----------------------------------------------------------------------
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Chaining scripts----------------------------------------------------------------------
+Executing /home/emil/Cleanup/clean-snaps.sh script
+Cleaning old revisions of snaps.....
+All done, good to go!
+--------------------------------------------------------------------------------------
+18
